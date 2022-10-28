@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8 businessHours" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
@@ -10,7 +10,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      href="https://use.fontawesome.com/releases/v5.8 businessHours.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
@@ -18,146 +18,74 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+   
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p>Today is</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div id="1am" class="row">
-        <h2 class="hour col-1">01:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="1am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="2am" class="row">
-        <h2 class="hour col-1">02:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="2am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="3am" class="row">
-        <h2 class="hour col-1">03:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="3am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="4am" class="row">
-        <h2 class="hour col-1">04:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="4am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="5am" class="row">
-        <h2 class="hour col-1">05:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="5am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="6am" class="row">
-        <h2 class="hour col-1">06:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="6am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="7am" class="row">
-        <h2 class="hour col-1">07:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="7am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="8am" class="row">
-        <h2 class="hour col-1">08:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="8am">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
       <div id="9am" class="row">
         <h2 class="hour col-1">9:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="9am">
-        <button class="col-1 saveBtn">Save</button>
+        <input type="text" class=" col-md-10 col-sm-8 businessHours"  placeholder="Add Your Adgenda Item Here!" id="9am">
+        <button class="col-1 saveBtn" id="btn9">Save</button>
       </div>
       <div id="10am" class="row">
         <h2 class="hour col-1">10:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="10am">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="10am">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="11am" class="row">
         <h2 class="hour col-1">11:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="11am">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="11am">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="12pm" class="row">
         <h2 class="hour col-1">12:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="12pm">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="12pm">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="01pm" class="row">
         <h2 class="hour col-1">01:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="01pm">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="01pm">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="02pm" class="row">
         <h2 class="hour col-1">02:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="02pm">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="02pm">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="03pm" class="row">
         <h2 class="hour col-1">03:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="03pm">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="03pm">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="04pm" class="row">
         <h2 class="hour col-1">04:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="04pm">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="04pm">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="05pm" class="row">
         <h2 class="hour col-1">04:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="04pm">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="04pm">
         <button class="col-1 saveBtn">Save</button>
       </div>
       <div id="05pm" class="row">
         <h2 class="hour col-1">05:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="05pm">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="06pm" class="row">
-        <h2 class="hour col-1">06:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="06pm">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="07pm" class="row">
-        <h2 class="hour col-1">07:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="07pm">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="08pm" class="row">
-        <h2 class="hour col-1">08:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="08pm">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="09pm" class="row">
-        <h2 class="hour col-1">09:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="09pm">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="10pm" class="row">
-        <h2 class="hour col-1">10:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="10pm">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="11pm" class="row">
-        <h2 class="hour col-1">11:00 PM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="11pm">
-        <button class="col-1 saveBtn">Save</button>
-      </div>
-      <div id="12am" class="row">
-        <h2 class="hour col-1">12:00 AM</h2>
-        <input type="text" class=" col-md-10 col-sm-8" placeholder="Add Your Adgenda Item Here!" id="12am">
+        <input type="text" class=" col-md-10 col-sm-8 businessHours" placeholder="Add Your Adgenda Item Here!" id="05pm">
         <button class="col-1 saveBtn">Save</button>
       </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

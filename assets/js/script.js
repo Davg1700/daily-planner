@@ -7,7 +7,6 @@ var currentTime;
 //sets current time/day
 function todaysDate(){
     $(currentDay).text(moment().format('MMMM Do YYYY, h:mm:ss a'));
-    currentTime = moment().hour('hA'); 
 };
 
 //local storgae function
